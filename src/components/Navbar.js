@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import 'bulma/css/bulma.css'
 import './Navbar.css'
 
-import Facebook from '../Images/icons8-facebook-50.png'
-import LinkedIn from '../Images/icons8-linkedin-50.png'
-import GitHub from '../Images/icons8-github-50.png'
-
 class Navbar extends Component{
 
     state = {
@@ -28,13 +24,13 @@ class Navbar extends Component{
             <div className="navbar-brand">
                 
                 <a href="https://www.facebook.com/profile.php?id=100009399268788" className="navbar-item">
-                    <img src={Facebook} alt="Link to Facebook profile"/>
+                    <i class="fab fa-facebook"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/elijah-tungul-b92497195/" className="navbar-item">
-                    <img src={LinkedIn} alt="Link to LinkedIn profile"/>
+                    <i class="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/elijah-t" className="navbar-item">
-                    <img src={GitHub} alt="Link to GitHub profile"/> 
+                    <i class="fab fa-github"></i> 
                 </a>
 
                 <a role="button" className={`navbar-burger burger ${active ? "is-active transparent" : ""}`} onClick={this.handleClick} aria-label="menu" aria-expanded="false" data-target="burgerTarget">

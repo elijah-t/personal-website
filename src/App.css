@@ -1,7 +1,10 @@
 .bg {
-  background-color: #9353d4;
+  background-color: rgba(59, 103, 224, 0.76);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
