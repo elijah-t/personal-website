@@ -29,6 +29,10 @@ img.portrait{
     float:left;
 }
 
+.center{
+    text-align:center;
+}
+
 .bg2 {
     background-color:grey;
 }
