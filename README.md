@@ -3,7 +3,7 @@
 Created using ReactJS and Bulma.  
 Work in progress, website and hosting coming soon.
 
-Screenshot of the (current state of) website:
+Screenshot of the (current state of the) website:
 
 ![Screenshot of the website](./current.png)
 
