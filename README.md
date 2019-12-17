@@ -1,7 +1,15 @@
-<h1>Elijah's Personal Website</h1>
+# Elijah's Personal Website
 
-Created using ReactJS and Bulma. <br>
+Created using ReactJS and Bulma.  
 Work in progress, website and hosting coming soon.
 
-To run the website, run the following command in the project directory:
+Screenshot of the (current state of) website:
+
+![Screenshot of the website](./current.png)
+
+
+To run the website, run the following commands in the project directory:  
+
+<code>npm install</code>  
+
 <code>npm start</code>
