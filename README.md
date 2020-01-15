@@ -7,6 +7,9 @@ Screenshot of the (current state of the) website:
 
 ![Screenshot of the website](./current.png)
 
+Mobile (iPhone X/XS):
+
+![Mobile screenshot of the website](./currentMobile.png)
 
 To run the website, run the following commands in the project directory:  
 
