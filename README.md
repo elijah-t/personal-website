@@ -5,11 +5,11 @@ Work in progress, website and hosting coming soon.
 
 Screenshot of the (current state of the) website:
 
-![Screenshot of the website](./current.png)
+![Screenshot of the website](./Screenshots/current.png)
 
 Mobile (iPhone X/XS):
 
-![Mobile screenshot of the website](./currentMobile.png)
+![Mobile screenshot of the website](./Screenshots/currentMobile.png)
 
 To run the website, run the following commands in the project directory:  
 
