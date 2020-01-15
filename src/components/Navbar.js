@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import 'bulma/css/bulma.css'
 import './Navbar.css'
 
@@ -42,15 +43,15 @@ class Navbar extends Component{
 
             <div id="burgerTarget" className={`navbar-menu ${active ? "is-active" : ""}`}>
                 <div className="navbar-end">
-                <a className="navbar-item">
+                <Link to="/"className="navbar-item">
                     Home
-                </a>
-                <a className="navbar-item">
+                </Link>
+                <Link to="./about" className="navbar-item">
                     About
-                </a>
-                <a className="navbar-item">
+                </Link>
+                <Link to="./contact" className="navbar-item">
                     Contact
-                </a>
+                </Link>
                 </div>
             </div>
 
