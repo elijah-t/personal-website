@@ -13,7 +13,7 @@ class Home extends Component{
                 <Navbar />
                 <br/>
                 <div className="container">
-                    <img className="center portrait" src={Me}></img>
+                    <img className="center portrait" src={Me} alt="Headshot of Elijah Tungul"></img>
                 </div>
                 <div className="container">
                     <h1 className="home">Elijah Tungul</h1>

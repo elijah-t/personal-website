@@ -1,0 +1,14 @@
+img.uc{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size:25px;
+}

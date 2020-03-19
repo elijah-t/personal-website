@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js'
 import 'bulma/css/bulma.css'
-import './Contact.css'
+import './About.css'
 
 import penguinuc from '../Images/penguinuc.png'
 
-class Contact extends Component{
+class UC extends Component{
     render(){
         return(
             <div>
                 <Navbar />
                 <div className="container">
-                    <img className="uc" src={penguinuc}/>
+                    <img className="uc" src={penguinuc} alt="Under construction penguin"/>
                     <div>
                         <p> Under construction!</p>
                     </div>
@@ -22,4 +22,4 @@ class Contact extends Component{
     }
 }
 
-export default Contact;
+export default UC;
